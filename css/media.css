@@ -6,6 +6,18 @@
     .adress-link-menu-tel {
         font-size: 36px;
     }
+    .subscribe-input {
+        width: 396px;
+    }
+    .modal {
+        width: 392px;
+    }
+    .modal-form-input {
+        width: 360px;
+    }
+    .modal-form-comment {
+        width: 360px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -17,6 +29,9 @@
 @media screen and (min-width: 768px) {
     .container {
         width: 766px;
+    }
+    .mob-menu-btn {
+        display: none;
     }
 }
 
