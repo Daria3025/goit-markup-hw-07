@@ -1,0 +1,59 @@
+@media screen and (min-width: 428px) {
+    .container {
+        width: 426px;
+        margin: 0 auto;
+    }
+    .adress-link-menu-tel {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-menu, .contacts {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 766px;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .about-icons-container {
+        display: none;
+    }
+    .activity {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+    }
+}
+
+@media sceen and (min-device-pixel-ratio: 2),
+sceen and (-webkit-min-device-pixel-ratio: 2),
+sceen and (min-resolution: 192dpi),
+sceen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-mob@2x.jpg);
+    }
+    }
+
+@media sceen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+sceen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+sceen and (min-resolution: 192dpi) and (min-width: 768px),
+sceen and (min-resolution: 2dppx) and (min-width: 768px) {
+
+    }
+
+@media sceen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+sceen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1158px),
+sceen and (min-resolution: 192dpi) and (min-width: 1158px),
+sceen and (min-resolution: 2dppx) and (min-width: 1158px) {
+
+    }
