@@ -30,9 +30,147 @@
     .container {
         width: 766px;
     }
+    /* ----------------------------HEADER------------------------------ */
     .mob-menu-btn {
         display: none;
     }
+    .header-container {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .header-navigation {
+        display: flex;
+    }
+    .header-logo-link {
+        margin-right: 120px;
+    }
+    .header-menu {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        display: flex;
+        gap: 40px;
+    }
+    .header-link:hover,
+    .header-link:focus {
+        color: #404bbf;
+    }
+    .header-link {
+        color: var(--dark-color-title);
+        transition: color, var(--transition-style);
+    }  
+    .current {
+        position: relative;
+    }
+    .current:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -28px;
+        width: 100%;
+        height: 4px;
+        background-color: #404BBF;
+        border-radius: 2px;
+    }    
+    .contacts {
+        font-style: normal;
+        margin-left: auto;
+    }
+    .header-contacts-list {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        color: #434455;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .adress-link {
+        color: #434455;
+        transition: color, var(--transition-style);
+    }
+    
+    .adress-link:hover,
+    .adress-link:focus {
+        color: #404bbf;
+    }
+    /* -------------------------------------HERO------------------------------------- */
+    .hero {
+        background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab.jpg);
+        max-width: 768px;
+    }
+    /* -----------------------ABOUT-------------------------- */
+    .about-text {
+        max-width: 356px;
+        margin: 0;
+    }
+    .about-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px 24px;
+    }
+    /* -----------------------TEAM-------------------------- */
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-gap: 64px 24px;
+    }
+    /* -----------------------CUSTOMERS-------------------------- */
+    .customers-list {
+        grid-gap: 72px 24px;
+    }
+    /* -----------------------FOOTER-------------------------- */
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 93px;
+    }
+    .bottom-container-footer {
+        display: flex;
+    }
+    .footer-container-text {
+        margin-right: 24px;
+        align-items: flex-start;
+    }
+    .social-list-footer {
+        align-items: flex-start;
+    }
+    .subscribe-footer {
+        align-items: flex-start;
+    }
+    .subscribe-text {
+        margin-bottom: 16px;
+    }
+    .subscribe-input-btn {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 24px;
+    }
+    .subscribe-input {
+        width: 264px;
+    }
+     /* -----------------------PORTFOLIO-------------------------- */
+    .projects-item {
+        width: 356px;
+    }
+    .projects-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 72px 24px
+    }
+    
 }
 
 @media screen and (max-width: 1157px) {
@@ -42,6 +180,7 @@
     .activity {
         display: none;
     }
+    
 }
 
 @media screen and (min-width: 1158px) {
@@ -63,8 +202,10 @@ sceen and (min-resolution: 2dppx) {
 sceen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
 sceen and (min-resolution: 192dpi) and (min-width: 768px),
 sceen and (min-resolution: 2dppx) and (min-width: 768px) {
-
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab@2x.jpg);
     }
+}
 
 @media sceen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
 sceen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1158px),

@@ -301,10 +301,13 @@ max-width: 320px;
 
 /* -----------------------TEAM-------------------------- */
 
+.team {
+    background-color: #F4F4FD;
+}
+
 .team-container {
     padding-top: 96px;
     padding-bottom: 96px;
-    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -319,7 +322,7 @@ max-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 72px;
+    gap: 24px;
 }
 
 .employee-container {
@@ -397,14 +400,13 @@ max-width: 320px;
 .customers-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    grid-gap: 72px 16px;
     justify-content: center;
 }
 
 .customer-item {
     width: 190px;
     height: 88px;
-    margin-bottom: 72px;
 }
 
 .customer-link {
@@ -852,6 +854,7 @@ max-width: 320px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: 100%
 }
 
 .portfolio-link:hover,
@@ -890,10 +893,6 @@ max-width: 320px;
 .portfolio-link:hover .descr-text-portfolio,
 .portfolio-link:focus .descr-text-portfolio {
     transform: translate(0);
-}
-
-.projects-item:nth-child(-n+6) {
-    margin-bottom: 48px;
 }
 
 
