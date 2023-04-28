@@ -31,6 +31,9 @@
     .header-menu, .contacts {
         display: none;
     }
+    .footer-container-text {
+        margin-bottom: 72px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -44,6 +47,7 @@
     .header{
         padding-top: 16px;
         padding-bottom: 16px;
+        width: 100%;
     }
     .header-navigation {
         display: flex;
@@ -189,6 +193,9 @@
     .activity {
         display: none;
     }
+    .bottom-container-footer {
+        margin-bottom: 72px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -247,6 +254,9 @@
         align-items: center;
     }
     /* -----------------------ACTIVITY-------------------------- */
+    .activity {
+        padding-bottom: 120px;
+    }
     .activity-title {
         font-size: 36px;
         line-height: 1.11;
@@ -259,7 +269,6 @@
         display: flex;
         justify-content: space-between;
         margin-top: 72px;
-        padding-bottom: 120px;
     }
     /* -----------------------TEAM-------------------------- */
     .team {

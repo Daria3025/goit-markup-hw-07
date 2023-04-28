@@ -460,7 +460,6 @@ max-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 72px;
 }
 
 .footer-logo-link {
@@ -873,9 +872,9 @@ max-width: 320px;
 }
 
 .portfolio-descr-container {
+    padding: 32px 0 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: transparent;
-    padding: 32px 0 32px 16px;
 }
 
 .portfolio-text-cards-container {
