@@ -18,6 +18,13 @@
     .modal-form-comment {
         width: 360px;
     }
+    .social-media-list-menu {
+        gap: 56px;
+    }
+    .hero {
+        background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab.jpg);
+        max-width: 768px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -34,7 +41,7 @@
     .mob-menu-btn {
         display: none;
     }
-    .header-container {
+    .header{
         padding-top: 16px;
         padding-bottom: 16px;
     }
@@ -100,7 +107,6 @@
     }
     /* -------------------------------------HERO------------------------------------- */
     .hero {
-        background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab.jpg);
         max-width: 768px;
     }
     /* -----------------------ABOUT-------------------------- */
@@ -162,6 +168,10 @@
         width: 264px;
     }
      /* -----------------------PORTFOLIO-------------------------- */
+    .portfolio {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
     .projects-item {
         width: 356px;
     }
@@ -194,16 +204,21 @@
         flex-direction: row;
         gap: 40px;
         font-size: 16px;
-    line-height: 1.5;
+        line-height: 1.5;
     }
     /* -----------------------HERO-------------------------- */
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero.jpg);
         max-width: 1440px;
+        padding: 188px 0;
     }
     .hero-container {
         gap: 48px;
-        padding: 188px 0;
+    }
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
     }
     /* -----------------------ABOUT-------------------------- */
     .about {
@@ -247,7 +262,7 @@
         padding-bottom: 120px;
     }
     /* -----------------------TEAM-------------------------- */
-    .team-container {
+    .team {
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -274,13 +289,10 @@
     .footer-container-text {
         margin-right: 120px;
     }
-    .footer-text {
-        margin-bottom: 0;
-    }
     .social-list-footer {
         margin-right: 80px;
     }
-    .social-media-list-footer {
+    .social-list-footer {
         margin-bottom: 0;
     }
     /* ---------------------------------PORTFOLIO-------------------------------- */
