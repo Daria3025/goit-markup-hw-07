@@ -283,6 +283,11 @@
     .social-media-list-footer {
         margin-bottom: 0;
     }
+    /* ---------------------------------PORTFOLIO-------------------------------- */
+    .portfolio {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
 }
 
 @media sceen and (min-device-pixel-ratio: 2),
