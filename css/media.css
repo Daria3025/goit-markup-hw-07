@@ -288,7 +288,9 @@
     }
     /* -----------------------FOOTER-------------------------- */
     .footer {
-        padding: 100px;
+        padding: 100px 0;
+        display: flex;
+        justify-content: center;
     }
     .footer-container {
         flex-direction: row;
@@ -296,7 +298,7 @@
         align-items: flex-start;
     }
     .footer-container-text {
-        margin-right: 120px;
+        margin-right: 60px;
     }
     .social-list-footer {
         margin-right: 80px;
@@ -308,6 +310,12 @@
     .portfolio {
         padding-top: 100px;
         padding-bottom: 120px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-container-text {
+        margin-right: 120px;
     }
 }
 
