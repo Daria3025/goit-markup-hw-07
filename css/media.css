@@ -45,12 +45,12 @@
         display: none;
     }
     .header{
-        padding-top: 16px;
-        padding-bottom: 16px;
-        width: 100%;
+        padding: 15px;
+        
     }
     .header-navigation {
         display: flex;
+        align-items: center;
     }
     .header-logo-link {
         margin-right: 120px;
@@ -145,7 +145,6 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
-        margin-left: 93px;
     }
     .bottom-container-footer {
         display: flex;
@@ -293,9 +292,10 @@
         justify-content: center;
     }
     .footer-container {
-        flex-direction: row;
+        display: block;
+        /* flex-direction: row;
         justify-content: center;
-        align-items: flex-start;
+        align-items: flex-start; */
     }
     .footer-container-text {
         margin-right: 60px;
