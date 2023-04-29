@@ -311,6 +311,7 @@
     }
     .social-list-footer {
         margin-right: 80px;
+        margin-bottom: 0;
     }
     .social-media-list-footer {
         margin-bottom: 0;
@@ -318,6 +319,9 @@
     .subscribe-input {
         margin-bottom: 0;
         width: 264px;
+    }
+    .bottom-container-footer {
+        margin-bottom: 0;
     }
     /* ---------------------------------PORTFOLIO-------------------------------- */
     .portfolio {
