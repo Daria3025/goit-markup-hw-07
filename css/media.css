@@ -22,8 +22,7 @@
         gap: 56px;
     }
     .hero {
-        background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab.jpg);
-        max-width: 768px;
+        background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab.jpeg);
     }
 }
 
@@ -101,6 +100,9 @@
         color: #404bbf;
     }
     /* -------------------------------------HERO------------------------------------- */
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab.jpeg);
+    }
     .hero-title {
         max-width: 500px;
         font-size: 56px;
@@ -219,8 +221,7 @@
     }
     /* -----------------------HERO-------------------------- */
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero.jpg);
-        max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero.jpeg);
         padding: 188px 0;
     }
     .hero-container {
@@ -336,7 +337,7 @@ sceen and (-webkit-min-device-pixel-ratio: 2),
 sceen and (min-resolution: 192dpi),
 sceen and (min-resolution: 2dppx) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-mob@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-mob-2x.jpg);
     }
     }
 
@@ -345,7 +346,7 @@ sceen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
 sceen and (min-resolution: 192dpi) and (min-width: 768px),
 sceen and (min-resolution: 2dppx) and (min-width: 768px) {
     .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-tab@2x.jpeg);
     }
 }
 
@@ -353,5 +354,7 @@ sceen and (min-resolution: 2dppx) and (min-width: 768px) {
 sceen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1158px),
 sceen and (min-resolution: 192dpi) and (min-width: 1158px),
 sceen and (min-resolution: 2dppx) and (min-width: 1158px) {
-
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero@2x.jpeg);
     }
+}

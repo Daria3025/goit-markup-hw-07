@@ -229,11 +229,14 @@ img {
 
 .hero {
     background-color: var(--background-color-dark);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-mob.jpeg);
-    margin:  0 auto;
-    max-width: 428px;
-    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/bg-hero-mob-1x.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    margin: 0 auto;
 }
+
 
 .hero-container {
     display: flex;
@@ -242,13 +245,17 @@ img {
 }
 
 .hero-title {
+    max-width: 320px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #FFFFFF;
     max-width: 320px;
     margin-bottom: 72px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-btn {
