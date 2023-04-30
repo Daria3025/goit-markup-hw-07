@@ -88,6 +88,11 @@
         background-color: #404BBF;
         border-radius: 2px;
     }    
+    .header-contacts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
     .adress-link {
         font-size: 12px;
         line-height: 1.17;
@@ -206,7 +211,7 @@
         margin-right: 75px;
     }
     .header-contacts-list {
-        display: flex;
+        flex-direction: row;
         gap: 40px;
     }
     .adress-link {
